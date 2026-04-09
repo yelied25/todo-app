@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do App | Lista de tareas</title>
+  <meta
+    name="description"
+    content="Aplicación de lista de tareas desarrollada con HTML, CSS y JavaScript para añadir, completar y eliminar tareas."
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app">
+    <section class="todo-box">
+      <h1>Lista de tareas</h1>
+      <p class="subtitle">
+        Proyecto de práctica en JavaScript para gestionar tareas de forma simple.
+      </p>
+
+      <div class="input-group">
+        <input
+          type="text"
+          id="taskInput"
+          placeholder="Escribe una tarea"
+        />
+        <button id="addTaskBtn">Añadir</button>
+      </div>
+
+      <ul id="taskList"></ul>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
